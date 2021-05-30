@@ -500,6 +500,7 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #45505b;
+  text-align: center;
 }
 
 .resume .resume-item {
@@ -674,6 +675,8 @@ img {
   margin-top: 35px;
   text-align: center;
 }
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -733,3 +736,4 @@ img {
 #footer .credits {
   font-size: 13px;
 }
+
