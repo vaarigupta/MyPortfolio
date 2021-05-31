@@ -456,7 +456,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -570,33 +570,25 @@ html {
   background-color: #ecf9ff;
 }
 
-body {
-  color: #272727;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
-  padding: 1rem;
-}
 
 .main{
   max-width: 1200px;
   margin: 0 auto;
 }
 
-h1 {
+.main h1 {
     font-size: 24px;
     font-weight: 400;
     text-align: center;
 }
 
-img {
+.main img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
 }
 
-.btn {
+.main .btn {
   color: #ffffff;
   padding: 0.8rem;
   font-size: 14px;
@@ -610,11 +602,11 @@ img {
   background: transparent;
 }
 
-.btn:hover {
+.main .btn:hover {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
-.cards {
+.main .cards {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -622,7 +614,7 @@ img {
   padding: 0;
 }
 
-.cards_item {
+.main .cards_item {
   display: flex;
   padding: 1rem;
 }
@@ -639,7 +631,7 @@ img {
   }
 }
 
-.card {
+.main .card {
   background-color: white;
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
@@ -648,12 +640,12 @@ img {
   overflow: hidden;
 }
 
-.card_content {
+.main .card_content {
   padding: 1rem;
   background: linear-gradient(to bottom left,#0563bb 40%, #7bbbd8 100%);
 }
 
-.card_title {
+.main .card_title {
   color: #ffffff;
   font-size: 1.1rem;
   font-weight: 700;
@@ -662,14 +654,14 @@ img {
   margin: 0px;
 }
 
-.card_text {
+.main .card_text {
   color: #ffffff;
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;    
   font-weight: 400;
 }
-.made_by{
+.main .made_by{
   font-weight: 400;
   font-size: 13px;
   margin-top: 35px;
@@ -729,11 +721,12 @@ img {
   text-decoration: none;
 }
 
-#footer .copyright {
-  margin: 0 0 5px 0;
-}
+/* footer p {
+	color: white;
+	text-align: center;
+	font-style: oblique;
+  
+} */
 
-#footer .credits {
-  font-size: 13px;
-}
+/* temp */
 
