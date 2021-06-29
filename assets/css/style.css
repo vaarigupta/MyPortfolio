@@ -5,6 +5,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  background-color: lightcyan;
 }
 
 a {
@@ -256,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/wallpaper.jpg") top right no-repeat;
+  background: url("../img/wallpaper3.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -269,7 +270,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(107, 75, 148, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -292,6 +292,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
+ .myPhoto
+{
+  /* background-position: 50% 35%; */
+  background-repeat: no-repeat;
+  padding: 5px 5px;
+  margin : 5px 5px;
+  border-radius: 50%;
+  min-width: 20%; 
+  height: auto;
+}
 #hero p span {
   color:#fff;
   letter-spacing: 1px;
@@ -381,12 +391,25 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h3 {
+.about .content
+{
+  margin : 5px 5px;
+  padding : 5px 5px;
+  /* border:2px solid #0563bb; */
+  
+}
+.about .content h2 {
   font-weight: 700;
   font-size: 26px;
   color: #2b2e31;
+  
 }
 
+/* .about .content p
+{
+  margin : 5px 5px;
+  padding : 5px 5px;
+} */
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -673,7 +696,7 @@ html {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: lightgrey;
   color: #45505b;
   font-size: 14px;
   text-align: center;
@@ -729,4 +752,3 @@ html {
 } */
 
 /* temp */
-
