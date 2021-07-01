@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
   margin : 5px 5px;
   border-radius: 80%;
   min-width: 20%; 
-  height: auto;
+  height: 400px;;
 }
 
 @media only screen and (max-width : 600px)
@@ -321,6 +321,7 @@ h1, h2, h3, h4, h5, h6 {
     /* background-position: 50% 35%; */
     /* background-repeat: no-repeat;*/ 
     height: 300px;
+    width:200px;
   
   }
 
@@ -420,7 +421,11 @@ section {
   margin-right: 20px;
   padding-left : 20px;
   padding-right: 20px;
-  /* border:2px solid #0563bb; */
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  border:2px solid #0563bb;
+  padding-bottom: 10px;
   
 }
 .about .content h2 {
@@ -430,20 +435,53 @@ section {
   
 }
 
+#ShowButton
+{
+  text-align: center;
+}
+@media only screen and (max-width: 800px)
+{
+  .about .content h2 {
+    font-size: 20px;
+    
+  }
+  
+}
+
 /* .about .content p
 {
   margin : 5px 5px;
   padding : 5px 5px;
 } */
 .about .content ul {
-  list-style: none;
+  list-style-type: circle;
   padding: 0;
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  text-align: center;
+}
+
+/* .about .content .KnowMore
+{
+    margin: 5px 5px;
+    padding: 5px 5px;
+    background-color: lightyellow;
+
+} */
+
+ #knowMore
+{
+  /* margin-bottom: 20px; */
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
 }
 
 .about .content ul strong {

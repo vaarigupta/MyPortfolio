@@ -263,6 +263,33 @@
 
 })()
 
+var knowMore = document.getElementById("knowMore");
+knowMore.style.display = "none";
+var ShowButton = document.getElementById("ShowButton");
+function Express()
+{
+
+  // var ctx = knowMore.getContext("2d");
+  // ctx.moveTo(0, 0);
+  // ctx.lineTo(200, 100);
+  // ctx.stroke();
+  if(knowMore.style.display === "none")
+  {
+    knowMore.style.display = "block";
+  }
+  else
+  {
+    knowMore.style.display = "none";
+  }
+  ShowButton.style.display = "none";
+
+}
+
+function GoBack()
+{
+    ShowButton.style.display = "inline-block";
+    knowMore.style.display = "none";
+}
 // Achievement Section
 //temp
 
