@@ -563,7 +563,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: rgb(248, 231, 4);
+  color: #f8e704;
   margin-bottom: 10px;
 }
 
@@ -717,8 +717,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: lightgrey;
-  color: #45505b;
+  background: #fff;;
+  color: #000;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -733,7 +733,8 @@ section {
   margin: 0 0 15px 0;
 }
 
-#footer p {
+#footer h6 {
+  color:#000;
   font-size: 15;
   font-style: italic;
   padding: 0;
@@ -747,7 +748,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background:  #000000d4;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
