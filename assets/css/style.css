@@ -4,8 +4,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
-  background-color: lightcyan;
+  color: #FFFFFF;
+  background-color: rgb(21, 16, 17);
 }
 
 a {
@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: #fff;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -383,7 +383,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #fff;
 }
 
 .section-title h2::before {
@@ -392,7 +392,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #ddd;
+  background: #fff;
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -431,7 +431,7 @@ section {
 .about .content h2 {
   font-weight: 700;
   font-size: 26px;
-  color: #2b2e31;
+  color: #fff;
   
 }
 
@@ -525,7 +525,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #45505b;
+  color: #fff;
 }
 
 .skills .progress .skill .val {
@@ -559,7 +559,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: #fff;
   text-align: center;
 }
 
